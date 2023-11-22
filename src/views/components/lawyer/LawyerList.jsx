@@ -43,7 +43,6 @@ export default function LawyerList({ modal }) {
   //Call lawyer list api
   useEffect(() => {
     const fetchData = async () => {
-      setData([]);
       try {
         const token =
           "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGZlMTc4MjMyMzIwNmVmMjViOWJiOSIsImlhdCI6MTcwMDU4Nzk4MCwiZXhwIjoxNzAwODQ3MTgwfQ.oPTTZy4-zXNTG5yPgUmVrMDM-X9czHsiL6xYyRpFWUY"; // Replace 'YOUR_AUTH_TOKEN' with your actual authorization token
