@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flywiestask/static/css/main.c75feba5.css",
-    "main.js": "/flywiestask/static/js/main.ae9edb19.js",
+    "main.js": "/flywiestask/static/js/main.fd54ecf9.js",
     "static/media/fa-solid-900.ttf": "/flywiestask/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/flywiestask/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/team-1-800x800.jpg": "/flywiestask/static/media/team-1-800x800.fa5a7ac2c81a43925586.jpg",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.c75feba5.css",
-    "static/js/main.ae9edb19.js"
+    "static/js/main.fd54ecf9.js"
   ]
 }
