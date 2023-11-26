@@ -19,7 +19,7 @@ export default function LawyerList({ modal }) {
   const deleteLawyer = async (id) => {
     try {
       const token =
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGZlMTc4MjMyMzIwNmVmMjViOWJiOSIsImlhdCI6MTcwMDU4Nzk4MCwiZXhwIjoxNzAwODQ3MTgwfQ.oPTTZy4-zXNTG5yPgUmVrMDM-X9czHsiL6xYyRpFWUY"; // Replace 'YOUR_AUTH_TOKEN' with your actual authorization token
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGZlMTc4MjMyMzIwNmVmMjViOWJiOSIsImlhdCI6MTcwMDk2OTEzMSwiZXhwIjoxNzAxMjI4MzMxfQ.uq_XPlMmdPMGrFIvltPi3sHehK6qyKDj_JXv9eYKbm0"; // Replace 'YOUR_AUTH_TOKEN' with your actual authorization token
       const config = {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -45,7 +45,7 @@ export default function LawyerList({ modal }) {
     const fetchData = async () => {
       try {
         const token =
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGZlMTc4MjMyMzIwNmVmMjViOWJiOSIsImlhdCI6MTcwMDU4Nzk4MCwiZXhwIjoxNzAwODQ3MTgwfQ.oPTTZy4-zXNTG5yPgUmVrMDM-X9czHsiL6xYyRpFWUY"; // Replace 'YOUR_AUTH_TOKEN' with your actual authorization token
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGZlMTc4MjMyMzIwNmVmMjViOWJiOSIsImlhdCI6MTcwMDk2OTEzMSwiZXhwIjoxNzAxMjI4MzMxfQ.uq_XPlMmdPMGrFIvltPi3sHehK6qyKDj_JXv9eYKbm0"; // Replace 'YOUR_AUTH_TOKEN' with your actual authorization token
         const config = {
           headers: {
             Authorization: `Bearer ${token}`,
